@@ -1,6 +1,11 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 
-name=st.text_input("Enter your name")
-age=st.number_input("Enter your age")
-
+st.title("my Streamlit App")
+st.header("My stearmlit")
+st.subheader("My stream")
+st.text("Streamlit is an python framework")
+st.write("_Vinsup infotech_")
+st.badge("new",color="green")
+st.write("_streamlit app_")
+st.write("**python**")
+st.write("This is my app")
